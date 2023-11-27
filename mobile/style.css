@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+#main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+#calc {
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: rgb(50,50,50);
+    float: left;
+}
+button#przycisk_maly, button#przycisk_maly_prz, button#przycisk_maly_icon {
+    padding: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 2.5%;
+    font-size: 600%;
+    font-weight: bold;
+    margin-bottom: 0%;
+    max-height: 28%;
+}
+
+button#przycisk_maly_icon {
+    text-align: center;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-right: 2%;
+}
+
+button#przycisk_duzy_ac, button#przycisk_duzy_del {
+    padding: 7.5%;
+    margin: 2.5%;
+    padding-top: 18.5%;
+    padding-bottom: 18.5%;
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+#przycisk_maly, button#przycisk_maly_prz, button#przycisk_maly_icon,  button#przycisk_duzy_ac, button#przycisk_duzy_del {
+    float: right;
+    background-color: rgb(30,30,30);
+    color: rgb(150,150,150);
+}
+#przycisk_maly:hover, button#przycisk_maly_prz:hover, button#przycisk_maly_icon:hover,  button#przycisk_duzy_ac:hover, button#przycisk_duzy_del:hover {
+    background-color: rgb(100,100,100);
+}
+button#przycisk_maly_prz{
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+button#przycisk_duzy_del {
+    padding-left: 4%;
+    padding-right: 6.75%;
+    padding-top: 28%;
+    padding-bottom: 28%;
+}
+button#przycisk_duzy_ac {
+    padding-top: 31.5%;
+    padding-bottom: 31.5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+#jedn1, #jedn2{
+    font-size: 450%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 2.5%;
+    margin-right: 0%;
+    width: 30%;
+    color: rgb(150,150,150);
+    background-color: rgb(30,30,30);
+    border: none;
+}
+select, option {
+    padding: 1px;
+}
+#wpisz, #wynik {
+    font-size: 400%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 2.5%;
+    margin-left: 0%;
+    width: 60%;
+    color: rgb(150,150,150);
+    background-color: rgb(30,30,30);
+    border: none;
+}
+button.wybor {
+    float: left;
+    margin: 4%;
+    padding: 8%;
+    font-size: 150%;
+    max-height: 25%;
+    max-width: 25.333333333333333333%;
+    text-align: center;
+    padding-bottom: 18%;
+    padding-top: 18%;
+    background-color: rgb(30,30,30);
+    border: 0px;
+}
+.wybor h5 {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(150,150,150);
+}
+.wybor img {
+    margin-left: auto;
+    margin-right: auto;
+}
+button.wybor:hover {
+    background-color: rgb(100,100,100);
+}
